@@ -44,6 +44,13 @@ if you ever want to change the agent settings, you'll additionally need to unloa
 $ launchctl unload ~/Library/LaunchAgents/ora-break.plist
 ```
 -----
-#### Linux & Windows compatibility
+-----
+## Linux & Windows compatibility
 Linux: show desktop notifications with [notify-send](http://manpages.ubuntu.com/manpages/focal/en/man1/notify-send.1.html) and manage the notification schedule with a [systemd timer](https://www.freedesktop.org/software/systemd/man/systemd.timer.html)\
 Windows: show desktop notifications with [Windows Script Host](https://stackoverflow.com/questions/3106806/how-to-show-a-popup-without-a-browser) and manage the schedule with [Task Scheduler](https://docs.microsoft.com/en-us/windows/desktop/taskschd/task-scheduler-start-page).
+
+----
+## Extra
+U can do more with the shell script. It uses the osascript command , passing an argument with `-e` flag as an _Applescript statement_ (the is the default language)\
+Here is some examples:\
+![info-cmd](https://github.com/riettotek/Deamons-ora-break/blob/main/osascript-cmd.png)
