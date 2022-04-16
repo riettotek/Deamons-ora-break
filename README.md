@@ -10,8 +10,9 @@ Istruzioni di implementazione in inglese affinchè sia fruibile da tutti
 - [CLI commands](https://github.com/riettotek/Deamons-ora-break/edit/main/README.md#CLI-Commands) to initialize such agent.
 
 ## The shell script 
-_It uses the Mac's built-in notification system to show the message_
-Place it in this folder ~/scripts/ora-break.sh
+_It uses the Mac's built-in notification system to show the message_ 
+
+Place it in this folder `~/scripts/ora-break.sh`
 You able to change the location as u prefer, but remember to inform your plist file about the new location
 
 ## The launchd agent
