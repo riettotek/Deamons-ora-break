@@ -11,18 +11,18 @@ Istruzioni di implementazione in inglese affinchè sia fruibile da tutti
 
 ## The shell script 
 _It uses the Mac's built-in notification system to show the message_
-Place it in this folder ~/scripts/twenty.sh
+Place it in this folder ~/scripts/ora-break.sh
 You able to change the location as u prefer, but remember to inform your plist file about the new location
 
 ## The launchd agent
-_Place this file in_ `~/Library/LaunchAgents/twenty.plist`
+_Place this file in_ `~/Library/LaunchAgents/ora-break.plist`
 Open the file in your prefered IDE to change the values for the interval of seconds and the directory to place the shell script 
 Remember to change path for the shell script in order to match your (see YOURACCOUNT)
 ```
 [...]
     <array>
         <string>sh</string>
-        <string>/Users/YOURACCOUNT/scripts/twenty.sh</string>
+        <string>/Users/YOURACCOUNT/scripts/ora-break.sh</string>
     </array>
     <key>StartInterval</key>
     <integer>3600</integer>
